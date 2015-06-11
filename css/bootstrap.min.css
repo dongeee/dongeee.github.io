@@ -4942,22 +4942,25 @@ a.badge:hover {
 .nav-pills>li>a>.badge {
     margin-left: 3px
 }
-.jumbotron {
-  background-image:url('http://www.rapidreadytech.com/wp-content/uploads/2015/01/rigid_opaque_blue_motor.jpg');
+.jumbotron{
+   background-image:url('https://commondatastorage.googleapis.com/foresight-banners/images/articles/32393/1575272915-.jpeg');
   height: 500px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain; 
 }
-
 .jumbotron .h1,
 .jumbotron h1 {
-    color: inherit
+    color: #000000;
 }
-.jumbotron p {
+.jumbotron p{
     margin-bottom: 15px;
     font-size: 21px;
-    font-weight: 200
+    font-weight: 200;
+    font-weight: bold;
+    margin: 30px;
+    color: #000000
 }
+
 .jumbotron>hr {
     border-top-color: #d5d5d5
 }
@@ -4966,17 +4969,18 @@ a.badge:hover {
     border-radius: 6px
 }
 .jumbotron .container {
-    max-width: 100%
+    max-width: 100%;
 }
 @media screen and (min-width: 768px) {
     .jumbotron {
         padding: 48px 0
     }
-    .container .jumbotron,
+.container .jumbotron,
     .container-fluid .jumbotron {
         padding-right: 60px;
         padding-left: 60px
-    }
+    } 
+  
     .jumbotron .h1,
     .jumbotron h1 {
         font-size: 63px
